@@ -29,7 +29,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 10,
+      "repeat-delay": 1,
       "messages": [
         "Ma manifest ya",
         "Catkapı gelirim aklına oglum",
