@@ -2,13 +2,13 @@
   "name": "AFK Bot",
   "bot-account": {
     "username": "zoktay",
-    "password": "26.1.2",
+    "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "muningadasmlasunucu.aternos.me",
     "port":  34532,
-    "version": "",
+    "version": "26.1.2",
     "try-creative": false
   },
   "position": {
@@ -29,21 +29,21 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 10,
       "messages": [
         "Ma manifest ya",
         "Catkapı gelirim aklına oglum",
         "Zoktay kalp Eymen"
       ]
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": false,
     "auto-reconnect-delay": 0,
     "max-reconnect-delay": 0
   },
   "movement": {
     "enabled": true,
-    "circle-walk": {
+    "circle-walk":true {
       "enabled": true,
       "radius": 4,
       "speed": 3000
@@ -54,7 +54,7 @@
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 1
     }
   },
   "modules": {
@@ -77,8 +77,8 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
-      "chat": false
+      "disconnect": false,
+      "chat": true
     }
   },
   "chat": {
